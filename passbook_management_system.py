@@ -1,7 +1,7 @@
 import mysql.connector as m 
 import pandas as p 
 import numpy as np
-database=m.connect(host="LOCAL",user="USER",password="PASS",database="DATA")
+database=m.connect(host=LOCAL,user="USER",password="PASS",database="DATA")
 cursor=database.cursor()
 def Create_Ac():
     print("==========================================Enter Details===========================================")
